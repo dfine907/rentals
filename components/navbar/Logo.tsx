@@ -1,8 +1,18 @@
-import React from 'react'
+import Link from 'next/link'
+import { GiMountaintop } from "react-icons/gi";
+import { Button } from '../ui/button'
 
 const Logo = () => {
   return (
-    <div>Logo</div>
+    <>
+    <Button size='icon' asChild>
+
+    <Link href='/'>
+    <GiMountaintop className='w-6 h-6'/>
+    </Link>
+    </Button>
+      
+    </>
   )
 }
 
