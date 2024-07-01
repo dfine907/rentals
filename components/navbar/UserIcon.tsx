@@ -1,8 +1,10 @@
-import React from 'react'
+import { LuUserCircle2 } from "react-icons/lu";
 
 function UserIcon() {
   return (
-    <div>UserIcon</div>
+    <>
+    <LuUserCircle2 className="w-6 h-6 bg-primary rounded-full text-white" />
+    </>
   )
 }
 
